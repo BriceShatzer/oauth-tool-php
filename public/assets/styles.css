@@ -1,0 +1,16 @@
+section { padding: 3% 0; }
+a:focus{outline-width: 0;}
+
+.tab-title{
+	width:50%;
+	text-align: center;
+}
+.tab-title h5{
+	margin:0;
+	line-height: 1;
+}
+
+.tab-title figure{
+	max-width:30%;
+	margin:0 auto;
+}
