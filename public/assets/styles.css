@@ -1,16 +1,30 @@
-section { padding: 3% 0; }
+section {padding: 3% 0; }
 a:focus{outline-width: 0;}
-
+.tabs{}
 .tab-title{
-	width:50%;
+	width: 50%;
 	text-align: center;
+	border-bottom: 2px #d8d8d8 solid;
 }
+.tab-title:first-of-type{border-right: 1px #d8d8d8 solid;}
+.tab-title:last-of-type{border-left:1px #d8d8d8 solid;}
+.tab-title.active{ 
+	border-width: 0;
+}
+.panel .tab-title.active a{background-color: #f2f2f2}
 .tab-title h5{
-	margin:0;
+	margin: 0;
 	line-height: 1;
 }
 
 .tab-title figure{
-	max-width:30%;
-	margin:0 auto;
+	max-width: 30%;
+	margin: 0 auto;
 }
+.content{padding:20px;}
+
+.panel{
+	padding: 0 0 0 0;
+	border-width: 2px;
+}
+.panel form{padding:20px;}
